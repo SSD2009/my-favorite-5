@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 700px;
+}
+
+.profile {
+    width: 350px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Hobby {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: firebrick;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    background: linear-gradient(#b6fc03 0%, #fcce03 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#Info {
+    height: 800px;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy
+}
+
+.line {
+    height: 6px;
+    background-color: chocolate;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#definition {
+    padding: 20px;
+    font-family: fantasy;
+    color: darkred;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    font-family: fantasy;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.link {
+    display: inline;
+    color: chocolate;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: 'Indie Flower';
+    font-size: 30px;
+}
+
+#player {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.link:hover {
+    background-color: greenyellow;
+}
+
+#picture {
+    transition: transform .2s;
+    border: 10px solid #37e3e6;
+    padding: 5px;
+    width: 400px;
+    height: 350px;
+}
+
+#picture:hover {
+    transform: scale(0.9);
+}
